@@ -1,0 +1,16 @@
+## Dependencias
+Todo o desenvolvimento foi realizado em ambiente Linux, então, se você não está em um, é necessário fazer a instalação do WSL no seu computador.
+
+As instruções de instalação estão disponíveis em: [How to install WSL](https://learn.microsoft.com/en-us/windows/wsl/install)
+
+## Instalação de dependências
+Para facilitar o processo de execução, existe um arquivo chamado "run-environment", com as automações de criação do ambiente virtual e instalação de bibliotecas.
+
+Basta utilizar o comando: `source run-environment.sh`
+
+Com isso, você precisa selecionar o kernel do Python do ambiente virtual, assim:
+1. Abra o notebook
+2. Clique em "Select Kernel" (pode ter uma versão do Python como padrão, então clique nela)
+3. Clique em "Select Another Kernel"
+4. Selecione "Python Environments"
+5. Escolha a opção que começa com ".venv"
